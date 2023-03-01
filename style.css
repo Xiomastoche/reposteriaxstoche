@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    box-shadow: 0 0 4px 0 rgb(250, 176, 176);
+    background-color: rgb(255, 255, 255);
+}
+
+.fa-brands {
+    text-decoration: none;
+    color: rgb(200, 90, 171);
+}
+
+.menu_redes {
+
+}
+
+.first_section-title {
+    padding-top: 120px;
+}
+
+.first_title {
+    font-size: 45px;
+}
+
+.first_title {
+    font-family: 'Salsa', cursive;
+    font-size: 50px;
+}
+
+.section {
+    padding-top: 50px;
+    font-family: 'Salsa', cursive;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.second_section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.btn-history {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.link_btn {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.link_btn:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.third_section {
+    padding-top: 30px;
+    padding-bottom: px;
+}
+
+.title_body {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.projects {
+    width: 90%;
+    min-height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .project-card {
+    cursor: pointer;
+    position: relative;
+    flex: 1 1 40rem;
+  }
+  .project-card img {
+    width: 100%;
+  
+  }
+  
+  .detail-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .detail-wrap:hover {
+    opacity: 1;
+  }
+
+.form-button {
+  color: rgb(136, 27, 190);
+  background-color: rgb(243, 178, 229);
+  border-color: rgb(253, 198, 230);
+  font-family: 'Salsa', cursive;
+  padding: 4px;
+}
+
+  
+.footer {
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 0 4px 0 rgb(250, 176, 176);
+    background-color: rgb(250, 223, 223)
+  }
+  
+  .footer_link {
+    text-decoration: none;
+    color: black;
+  }
+  .footer_link:hover {
+    color: rgb(249, 4, 127);
+  }
+
+  .footer_copyright {
+    color: blueviolet;
+  }
