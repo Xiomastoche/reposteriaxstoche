@@ -14,32 +14,33 @@
     color: rgb(200, 90, 171);
 }
 
+.nav-link {
+  display: flex;
+  flex-direction: ;
+}
 .menu_redes {
-
+  display: none;
+  visibility: hidden;
 }
 
 .first_section-title {
-    padding-top: 120px;
-}
-
-.first_title {
-    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .first_title {
     font-family: 'Salsa', cursive;
-    font-size: 50px;
+    font-size: 32px;
 }
 
 .section {
     padding-top: 50px;
     font-family: 'Salsa', cursive;
-    font-size: 22px;
+    font-size: 20px;
     padding-bottom: 15px;
 }
 .second_section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
 }
 
 .btn-history {
@@ -67,7 +68,7 @@
 
 .title_body {
     font-family: 'Euphoria Script', cursive;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
     padding-bottom: 20px;
 }
@@ -139,3 +140,26 @@
   .footer_copyright {
     color: blueviolet;
   }
+
+@media (min-width: 768px) {
+  
+  .menu_redes {
+    display: block;
+    visibility: visible;
+  }
+  
+.first_section-title {
+  padding-top: 120px;
+}
+
+.first_title {
+  font-size: 45px;
+}
+.second_section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+}
+@media (min-width: 1024px){
+
+}
